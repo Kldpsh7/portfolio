@@ -211,6 +211,23 @@ svg{max-width:100%}
   left:-4px
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 */
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* RESEARCH */
 .project h3{
   font-size:1.2rem;
@@ -233,24 +250,44 @@ svg{max-width:100%}
 
 <!-- HERO -->
 <header>
-  <div class="label">Senior Software Developer · Jobma</div>
   <div class="hero">
     <span>Kuldeep</span>
     <span>Sharma</span>
   </div>
+  <div class="label">Senior Software Engineer | Backend | AI Systems | Frontend | Scalable Platforms</div>
 
-  <p style="max-width:420px;margin-top:20px;opacity:.5;font-family:var(--mono)">
-    Senior full-stack engineer building scalable backend systems,
-    real-time AI platforms, and production-grade applications.
+  <p style="max-width:620px;margin-top:20px;opacity:.5;font-family:var(--mono)">
+    I design and build high-performance backend systems and AI-powered products
+    used by real users in production. Specialized in Python, FastAPI, Django, React,
+    distributed systems, and applied AI.
   </p>
 
   <div style="margin-top:30px;display:flex;gap:20px;flex-wrap:wrap">
-    <a href="/Resume_Kuldeep_Sharma.pdf" download>↓ Resume</a>
-    <a href="https://github.com/Kldpsh7" target="_blank">GitHub</a>
-    <a href="https://in.linkedin.com/in/kldpsh7" target="_blank">LinkedIn</a>
-    <a href="https://leetcode.com/u/kldpsh77/" target="_blank">LeetCode</a>
+    <a href="/Resume_Kuldeep_Sharma.pdf" download>↓ Download Resume</a>
+    <a href="#projects" onclick="document.querySelector('#projects').scrollIntoView({behavior:'smooth'})">View Projects</a>
   </div>
 </header>
+
+<!-- ABOUT -->
+<section class="section">
+  <div class="label">About</div>
+  <h2>About Me</h2>
+  <div class="reveal" style="margin-top:40px;max-width:800px;opacity:.8;line-height:1.8">
+    <p style="margin-bottom:20px">
+      I'm a Senior Software Engineer with hands-on experience building
+      production-grade backend systems, AI interview platforms, and
+      real-time applications.
+    </p>
+    <p style="margin-bottom:20px">
+      I've worked on scalable APIs, video processing pipelines, authentication
+      systems, and AI-driven workflows used by thousands of users.
+    </p>
+    <p>
+      I care about clean architecture, performance, and systems that are easy to
+      maintain at scale.
+    </p>
+  </div>
+</section>
 
 <!-- EXPERIENCE -->
 <section class="section">
@@ -301,7 +338,7 @@ svg{max-width:100%}
 </section>
 
 <!-- PROJECTS -->
-<section class="section">
+<section class="section" id="projects">
   <div class="label">Case Studies</div>
   <h2>Projects</h2>
 
@@ -348,7 +385,16 @@ svg{max-width:100%}
       </svg>
     </div>
 
-    <!-- <div class="video">YOUTUBE DEMO PLACEHOLDER</div> -->
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/XrVd_XoNRPE"
+        title="Project demo video"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
   </div>
 
   <!-- AskAI -->
@@ -443,7 +489,16 @@ svg{max-width:100%}
     </div>
 
 
-    <!-- <div class="video">YOUTUBE DEMO PLACEHOLDER</div> -->
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/KxP5psV8IWU"
+        title="Project demo video"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
   </div>
 
   <!-- SkillMatch -->
@@ -550,7 +605,16 @@ svg{max-width:100%}
       </svg>
     </div>
 
-    <!-- <div class="video">YOUTUBE DEMO PLACEHOLDER</div> -->
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/oBFHESCx9RQ"
+        title="Project demo video"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
   </div>
 
 </section>
