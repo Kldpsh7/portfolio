@@ -199,6 +199,25 @@ svg{max-width:100%}
   opacity:.7
 }
 
+/* EDUCATION */
+.education .role h3{
+  font-size:1.2rem;
+  font-weight:500;
+  opacity:.8
+}
+.education .role::before{
+  width:8px;
+  height:8px;
+  left:-4px
+}
+
+/* RESEARCH */
+.project h3{
+  font-size:1.2rem;
+  font-weight:500;
+  opacity:.8
+}
+
 @media(max-width:900px){
   header{height:auto}
   .project{padding:30px}
@@ -226,7 +245,7 @@ svg{max-width:100%}
   </p>
 
   <div style="margin-top:30px;display:flex;gap:20px;flex-wrap:wrap">
-    <a href="Kuldeep_Sharma_Resume.pdf" download>↓ Resume</a>
+    <a href="Resume_Kuldeep_Sharma.pdf" download>↓ Resume</a>
     <a href="https://github.com/Kldpsh7" target="_blank">GitHub</a>
     <a href="https://in.linkedin.com/in/kldpsh7" target="_blank">LinkedIn</a>
     <a href="https://leetcode.com/u/kldpsh77/" target="_blank">LeetCode</a>
@@ -305,7 +324,7 @@ svg{max-width:100%}
     <p><strong>Tech:</strong> Python, FastAPI, LangGraph, Gemini, Qdrant, MongoDB, MySQL</p>
 
     <div class="arch">
-      <svg viewBox="0 0 900 200">
+      <svg viewBox="0 0 900 220">
         <rect x="10" y="60" width="150" height="60" stroke="white" fill="none"/>
         <text x="25" y="95" fill="white">Frontend (React)</text>
         <rect x="220" y="60" width="180" height="60" stroke="white" fill="none"/>
@@ -321,11 +340,11 @@ svg{max-width:100%}
         <rect x="680" y="140" width="180" height="60" stroke="white" fill="none"/>
         <text x="700" y="175" fill="white">LLM (Gemini)</text>
         <line x1="160" y1="90" x2="220" y2="90" stroke="white"/>
-        <line x1="400" y1="90" x2="460" y2="50" stroke="white"/>
-        <line x1="400" y1="90" x2="460" y2="140" stroke="white"/>
-        <line x1="620" y1="50" x2="680" y2="100" stroke="white"/>
-        <line x1="620" y1="50" x2="680" y2="30" stroke="white"/>
-        <line x1="620" y1="50" x2="680" y2="170" stroke="white"/>
+        <polyline points="400,85 430,85 430,45 460,45" stroke="white" fill="None"/>
+        <polyline points="400,95 430,95 430,140 460,140" stroke="white" fill="None"/>
+        <line x1="620" y1="30" x2="680" y2="30" stroke="white"/>
+        <polyline points="620,50 650,50 650,95 680,95" stroke="white" fill="None"/>
+        <polyline points="620,70 635,70 635,170 680,170" stroke="white" fill="None"/>
       </svg>
     </div>
 
@@ -547,6 +566,69 @@ svg{max-width:100%}
     <div class="skill"><h4>AI/ML</h4>LangChain · LangGraph · RASA · LLMs · RAG · Vector DB · Transformers · HuggingFace · Agentic AI</div>
     <div class="skill"><h4>Infrastructure</h4>Kafka · Redis · WebSockets · PostgreSQL · MongoDB · MySQL · Elasticsearch</div>
     <div class="skill"><h4>DevOps</h4>Docker · Kubernetes · GCP · AWS · Nginx · Baremetal · CI/CD · Jenkins · Git · GitLab CI · SonarQube · Sentry</div>
+  </div>
+</section>
+
+
+<!-- EDUCATION -->
+<section class="section">
+  <div class="label">Academic</div>
+  <h2>Education</h2>
+
+  <div class="experience education">
+
+    <div class="role reveal">
+      <h3>M.Tech — Greater Noida Institute of Technology</h3>
+      <div class="meta">2022 · AKTU</div>
+    </div>
+
+    <div class="role reveal">
+      <h3>B.Tech — G.L. Bajaj Institute of Technology and Management</h3>
+      <div class="meta">2017 · UPTU</div>
+    </div>
+
+    <div class="role reveal">
+      <h3>12th Grade — Jawahar Navodaya Vidyalaya</h3>
+      <div class="meta">2013 · CBSE Board</div>
+    </div>
+
+    <div class="role reveal">
+      <h3>10th Grade — Jawahar Navodaya Vidyalaya</h3>
+      <div class="meta">2011 · CBSE Board</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="section">
+  <div class="label">Publications</div>
+  <h2>Research</h2>
+
+  <div class="project reveal">
+    <h3>Optimization of FDM 3D printing process parameters using Taguchi technique</h3>
+    <p>
+      Research focused on optimizing Fused Deposition Modeling (FDM) 3D printing parameters 
+      to improve print quality and mechanical properties using statistical analysis.
+    </p>
+    <div style="margin-top:20px;display:flex;gap:20px;flex-wrap:wrap">
+      <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1168/1/012022/pdf" download>↓ Download PDF</a>
+      <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1168/1/012022/meta" target="_blank">View Publication</a>
+    </div>
+    <p style="margin-top:15px"><strong>Published:</strong> IOP Conference Series: Materials Science and Engineering</p>
+  </div>
+
+  <div class="project reveal">
+    <h3>Parametric multi-objective optimization of fused deposition modelling (FDM) with biopolymer using Grey-Taguchi method</h3>
+    <p>
+      Advanced research on multi-objective optimization of FDM 3D printing using biopolymer materials, 
+      combining Grey relational analysis with Taguchi methodology for enhanced performance.
+    </p>
+    <div style="margin-top:20px;display:flex;gap:20px;flex-wrap:wrap">
+      <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1248/1/012107/pdf" download>↓ Download PDF</a>
+      <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1248/1/012107/meta" target="_blank">View Publication</a>
+    </div>
+    <p style="margin-top:15px"><strong>Published:</strong> IOP Conference Series: Materials Science and Engineering</p>
   </div>
 </section>
 
