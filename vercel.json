@@ -1,5 +1,6 @@
 {
   "routes": [
+    { "src": "/Resume_Kuldeep_Sharma.pdf", "dest": "/Resume_Kuldeep_Sharma.pdf" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
